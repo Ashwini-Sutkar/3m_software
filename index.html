@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+       
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        
+        body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 100vh;
+          font-family: Arial, sans-serif;
+          background-color: #f8f9fa;
+        }
+
+
+        table , tr, td, th {
+            border: 1px solid #1e1e1e;
+            border-collapse: collapse ;
+            /* width: 400px;    */
+            border-radius: 8px;
+        }
+
+        
+        .content-table th, .content-table td {
+          padding: 12px 15px;
+          text-align: left;
+        }
+
+        .content-table th {
+          font-weight: bold;
+          background-color: #fff;
+          border-bottom: 1px solid #333;
+          text-align: left;
+        }
+        .content-table td {
+          font-size: 1rem;
+          background-color: #fff;
+          border-bottom: 1px solid #333;
+          text-align: left;
+        }
+    
+      </style>
+</head>
+<body>
+
+    <table class="content-table">
+        <thead>
+          <tr>
+            <th>Sr. No</th>
+            <th>List Of Content</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1.</td>
+            <td>Notification Bell Icon</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>Nav Bar</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>Profile Photo</td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td>Profiles Details</td>
+          </tr>
+          <tr>
+            <td>5.</td>
+            <td>Table with 3 Columns & Rows</td>
+          </tr>
+          <tr>
+            <td>6.</td>
+            <td>Bar Graph</td>
+          </tr>
+          <tr>
+            <td>7.</td>
+            <td>Pie Chart</td>
+          </tr>
+        </tbody>
+      </table>
+    
+</body>
+</html>
